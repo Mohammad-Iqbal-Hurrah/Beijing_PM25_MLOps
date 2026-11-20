@@ -1,5 +1,5 @@
 # Beijing PM2.5 One-Hour-Ahead Forecasting
-MSc AI/ML Semester III MLOps laboratory project.
+MSc Data Science Semester III MLOps laboratory project.
 ## Objective
 Predict PM2.5 concentration one hour ahead using past
 and currently available air-quality observations.
@@ -13,3 +13,9 @@ Create and activate .venv, then install requirements.txt.
 ## Progress
 Practicals 01-05: work produced locally, if completed.
 Practical 06: Git version control.
+## Reproducibility
+Git records code and documentation history.
+DVC will later track datasets and model artifacts.
+git add README.md
+git commit -m "Explain reproducibility plan"
+git log --oneline -3
